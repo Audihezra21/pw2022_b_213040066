@@ -6,7 +6,7 @@
     //  ada angka (integer), tulisan (string), true/false (boolean)
     echo 10; // ini adalah integer
     echo '<br>';
-    echo 'Rivan'; // ini adalah string
+    echo 'Audi'; // ini adalah string
     echo '<br>';
     echo false; // ini adalah boolean null
     echo '<hr>';
@@ -16,7 +16,7 @@
     // cara membuatnya adalah dengan cara, awali dengan tanda $
     // boleh mengandung angka, tidak boleh diawali angka
     // tidak boleh ada spasi, jika ada spasi diganti dengan _ , contoh $nama_depan
-    $nama_depan = 'Rivan';
+    $nama_depan = 'Audi';
     echo $nama_depan;
     echo '<hr>';
 
@@ -25,14 +25,14 @@
     $hari = "Jum'at";
     echo $hari;
     echo "<br>";
-    echo 'Muhamad Rivan Sahronie : "Halo, Semua!"';
+    echo 'Audi Hezra : "Halo, Semua!"';
     echo '<br>';
 
     // Belajar Escape Character
     // Simbol escape character \
-    echo 'Rivan : "Selamat hari jum\'at"';
+    echo 'Audi : "Selamat hari jum\'at"';
     echo '<br>';
-    echo "Rivan : \"Selamat Hari jum'at\"";
+    echo "Audi : \"Selamat Hari jum'at\"";
     echo '<br>';
 
     // Interpolasi
@@ -46,11 +46,11 @@
 
     // Concat / Penggabung String
     // Simbolnya menggunakan ()
-    $nama_depan = 'Muhammad';
-    $nama_belakang = 'Rivan';
+    $nama_depan = 'Audi';
+    $nama_belakang = 'Hezra';
     echo $nama_depan. " " .$nama_belakang;
     echo '<br>';
-    echo 'Rivan : "Selamat'. "hari Jum'at\"";
+    echo 'Audi : "Selamat'. "hari Jum'at\"";
     echo '<hr>';
 
     // Operator
